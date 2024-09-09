@@ -1,0 +1,74 @@
+.media {
+  display: flex;
+  flex-direction: column;
+  width: 210px;
+  padding: 5px;
+  margin: 13px 0;
+  background-color: rgb(72, 100, 166);
+  border-radius: 6px;
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  height: 380px;
+}
+
+.media:hover {
+  background-color: rgba(8, 31, 49, 0.784);
+  color: #f09a22;
+}
+
+/* for mobile view */
+@media (max-width: 550px) {
+  .media {
+    width: 90%;
+    height: 300px;
+  }
+  .title {
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 11px;
+    padding: 8px 0;
+  }
+  .subTitle {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 4px;
+    padding: 0 2px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  .media:hover {
+    background-color: rgb(165, 166, 168);
+    color: black;
+  }
+}
+
+.poster {
+  border-radius: 10px;
+  height: 300px;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 8px 0;
+}
+
+.subTitle {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 3px;
+  padding: 0 2px;
+  padding-bottom: 10px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.fav {
+  margin-top: -695px;
+  margin-left: -375px;
+  border-radius: 250px;
+}
+
